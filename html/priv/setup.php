@@ -8,7 +8,7 @@ include "privatePHP.php";
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Modifica utente</title>
-  <link rel="stylesheet" href="../../css/style6.css">
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
   <div class="container">

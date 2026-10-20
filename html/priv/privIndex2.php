@@ -8,7 +8,7 @@ unset($_SESSION["score_saved"]);
   <meta charset="UTF-8">
   <title>Gioco SAW</title>
 
-  <link rel="stylesheet" href="../../css/style6.css">
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
 

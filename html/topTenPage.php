@@ -31,7 +31,7 @@ $conn->close();
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/style6.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Classifica Top 10</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 24px; }

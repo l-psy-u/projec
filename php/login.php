@@ -1,18 +1,18 @@
 <?php
 session_start();
 // salvo i dati e tolgo gli spazzi 
-$email = trim($_POST["email"] ?? "");
-$pass  = $_POST["pass"] ?? "";
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     echo "Richiesta non valida.";
     exit();
-    }
+}
+$email = trim($_POST["email"] ?? "");
+$pass  = $_POST["pass"] ?? "";
     
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "Email o password non validi.";
         exit();
-    }
+}
 
 if ($email === "" || $pass === "") {
     echo "Compila tutti i campi.";
